@@ -1,0 +1,440 @@
+.preciosnoactualizados,.ofertameses,.ahorraporcentaje{
+  display: none;
+}
+
+body {
+  padding-top: 50px;
+  background:#f0f0f0;
+}
+
+#particular {
+padding: 0!important;
+
+}
+
+.precio{
+  padding: 0!important;
+}
+
+.precio h2{
+  text-align: center;
+  margin-top: 0px;
+	text-shadow:#000 0 1px 0;
+	color:#FFF;
+	padding: 6px!important;
+}
+
+.precio h3{
+  text-align: center;
+  margin-top: 10px;
+	text-shadow:#000 0 1px 0;
+	color:#FFF;
+  line-height: 30px;
+}
+
+.precio.caption{
+  height: auto;
+  padding: 0;
+  text-align: center;
+  border-radius: 3px;
+  margin: 0;
+  margin-bottom2: -10px;
+}
+
+
+.precio.caption.particular{
+  background: #680316;
+}
+
+.precio.caption.autonomo{
+  background: #244837;
+}
+
+.precio.caption.empresa{
+  background: #915300;
+}
+
+
+
+#tituloprecio {
+  position: relative;
+  width:100%;
+  margin: 0;
+  to2p:-10px;
+  margin-bottom: 0px;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+  padding-top: 0px;
+  height: 50px;
+  box-shadow:
+
+}
+
+#tituloprecio.particular{
+  background: #c10025;
+  box-shadow:#90011c 0 1px 0;
+}
+
+#tituloprecio.autonomo{
+  background: #418666;
+  box-shadow:#31624b 0 1px 0;
+}
+
+#tituloprecio.empresa{
+  background: #ff9200;
+  box-shadow:#bb6c02 0 1px 0;
+}
+
+#seccionprecio{
+  position: relative;
+  width: 100%;
+  padding: 0;
+  top: 5px;
+  margin: 0!important;
+  padding-bottom: 2px;
+}
+
+.hrseparadorprecio {
+	border-top-color: black;
+  margin: 0;
+  position: relative;
+}
+
+td {
+	vertical-align:middle!important
+}
+.thumbnail li {
+	margin: 10px 0;
+}
+
+.tituloydescripcion {
+  padding: 15px;
+  text-align: center;
+}
+
+.contacto {
+	padding-top:0!important;
+	padding-bottom:0!important;
+	background:none;
+	border:none
+}
+
+.hrseparador {
+	border-top-color: black;
+}
+
+.mensaje {
+	resize: none;
+}
+
+.botoncerrar {
+	position:absolute;
+	right:10px;
+	top:10px
+}
+
+.estructura {
+	padding-top: 15px;
+}
+
+.cuerpo {
+	padding: 15px;
+}
+
+.seccion,.seccion-multirramo {padding: 0;
+}
+
+.seccion img {
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+}
+
+
+
+.particulares {
+	background:url("../imagenes/particulares.png");
+	background-size: 100% 100%;
+}
+
+.autonomosyempresas {
+	background:url("../imagenes/autonomosyempresas.png");
+	background-size: 100% 100%;
+}
+
+.multirramo {
+	background:url("../imagenes/multirramo.png");
+	background-size: 100% 100%;
+}
+
+.particulares-dental {
+	background:url("../imagenes/particulares-dental.png");
+	background-size: 100% 100%;
+}
+
+.particulares-basico {
+	background:url("../imagenes/particulares-basico.png");
+	background-size: 100% 100%;
+}
+
+.particulares-plenavital {
+	background:url("../imagenes/particulares-plenavital.png");
+	background-size: 100% 100%;
+}
+
+.particulares-plena {
+	background:url("../imagenes/particulares-plena.png");
+	background-size: 100% 100%;
+}
+
+.particulares-plenaplus {
+	background:url("../imagenes/particulares-plenaplus.png");
+	background-size: 100% 100%;
+}
+
+.particulares-plenaextra150 {
+	background:url("../imagenes/particulares-plenaextra150.png");
+	background-size: 100% 100%;
+}
+
+.autonomosyempresas-autonomos {
+	background:url("../imagenes/autonomosyempresas-autonomos.png");
+	background-size: 100% 100%;
+}
+
+.autonomosyempresas-empresas {
+	background:url("../imagenes/autonomosyempresas-empresas.png");
+	background-size: 100% 100%;
+}
+
+.pymesyautonomos-reembolso {
+	background:url("../imagenes/pymesyautonomos-reembolso.png");
+	background-size: 100% 100%;
+}
+
+.seccion h3{
+	text-shadow:#000 0 1px 0;
+	color:#FFF;
+	padding: 20px 0!important
+}
+
+.seccion-multirramo h3{
+	text-shadow:#000 0 1px 0;
+	color:#FFF
+}
+
+.seccionsombra h3{
+	text-shadow:#000 0 1px 0,#000 0 0 7px;
+}
+
+.titulo {
+
+	color: #0099dd;
+}
+
+.lead {
+	color: #29bce9;
+
+}
+
+
+/*! Barra */
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #fff;
+  background-color: rgba(0,153,221,0.5);
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+
+  background-color: rgba(0,153,221,0.2);
+}
+
+.navbar-header img {
+	height: 34px;
+	margin-top:-7px;
+
+}
+
+.seccionfigura {
+	width:260px;
+	border-top-left-radius: 3px;
+	border-bottom-left-radius: 3px;
+
+}
+
+.seccionpoliza {
+	width:100%;
+	border-radius: 3px;
+}
+
+#particulares.seccionfigura{
+	background: rgba(96,178,54,.4);
+
+}
+
+#autonomosyempresas.seccionfigura{
+	background: rgba(1,89,164,.4);
+}
+
+#multirramo.seccionfigura{
+	background: rgba(195,0,27,.4);
+}
+
+
+#seccion-verde.seccionpoliza{
+	background: rgba(96,178,54,.2);
+}
+
+#seccion-verdesolido.seccionpoliza{
+	background: rgba(96,178,54,.7);
+}
+
+#seccion-azul.seccionpoliza{
+	background: rgba(1,89,164,.2);
+}
+
+#seccion-azulsolido.seccionpoliza{
+	background: rgba(1,89,164,.7);
+}
+
+#seccion-rojo.seccionpoliza{
+	background: rgba(195,0,27,.2);
+}
+
+#seccion-rojosolido.seccionpoliza{
+	background: rgba(195,0,27,.7);
+}
+
+#seccion-naranjasolido.seccionpoliza{
+	background: rgba(243,161,55,.7);
+}
+
+#seccion-gris.seccionpoliza{
+	background: rgba(105,108,108,.3);
+}
+
+#seccion-grissolido.seccionpoliza{
+	background: rgba(105,108,108,.7);
+}
+
+
+
+
+/*! Boton gris */
+.btn-gris {
+  color: #fff;
+  background-color: #7c7e7c;
+  border-color: #5e605e;
+}
+.btn-gris:focus,
+.btn-gris.focus {
+  color: #fff;
+  background-color: #6e706e;
+  border-color: #3b3c3b;
+}
+.btn-gris:hover {
+  color: #fff;
+  background-color: #6e706e;
+  border-color: #5a5c5a;
+}
+.btn-gris:active,
+.btn-gris.active,
+.open > .dropdown-toggle.btn-gris {
+  color: #fff;
+  background-color: #6e706e;
+  border-color: #5a5c5a;
+}
+.btn-gris:active:hover,
+.btn-gris.active:hover,
+.open > .dropdown-toggle.btn-gris:hover,
+.btn-gris:active:focus,
+.btn-gris.active:focus,
+.open > .dropdown-toggle.btn-gris:focus,
+.btn-gris:active.focus,
+.btn-gris.active.focus,
+.open > .dropdown-toggle.btn-gris.focus {
+  color: #fff;
+  background-color: #646664;
+  border-color: #3b3c3b;
+}
+.btn-gris:active,
+.btn-gris.active,
+.open > .dropdown-toggle.btn-gris {
+  background-image: none;
+}
+.btn-gris.disabled,
+.btn-gris[disabled],
+fieldset[disabled] .btn-gris,
+.btn-gris.disabled:hover,
+.btn-gris[disabled]:hover,
+fieldset[disabled] .btn-gris:hover,
+.btn-gris.disabled:focus,
+.btn-gris[disabled]:focus,
+fieldset[disabled] .btn-gris:focus,
+.btn-gris.disabled.focus,
+.btn-gris[disabled].focus,
+fieldset[disabled] .btn-gris.focus,
+.btn-gris.disabled:active,
+.btn-gris[disabled]:active,
+fieldset[disabled] .btn-gris:active,
+.btn-gris.disabled.active,
+.btn-gris[disabled].active,
+fieldset[disabled] .btn-gris.active {
+  background-color: #d9534f;
+  border-color: #d43f3a;
+}
+.btn-gris .badge {
+  color: #d9534f;
+  background-color: #fff;
+}
+
+
+
+
+
+@media (min-width: 992px) {
+
+	.barra {float:right
+	}
+
+	#oculto {
+	display:block!important;
+	}
+
+}
+
+@media (max-width: 991px) {
+
+	.contacto {
+	background:#fff!important;
+	border: 1px solid #ddd;
+	}
+
+
+	#oculto {
+	display:none;
+	}
+
+	#oculto2 {
+	display:block;
+	}
+
+}
+
+@media (max-width: 767px) {
+
+	.seccionfigura {
+	width:100%;
+	border-radius: 3px;
+	}
+
+}
+
+@media (max-width: 479px) {
+	.tablagrande {
+	font-size: 8px
+	}
+
+}
