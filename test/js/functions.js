@@ -9,13 +9,7 @@ var theDetail = document.getElementById(id2);
 
 function start(){
 
-  if (typeof localStorage.getItem("estado_cookies_4") === 'undefined' || !localStorage.getItem("estado_cookies_4")) { alert("Establecer estado_cookies en no_aceptadas"); localStorage.setItem("estado_cookies_4", "no_aceptadas"); };
-
-    if (localStorage.getItem("estado_cookies_4") == "no_aceptadas") {
-
-        bloque_cookies.style.display="block";
-  }
-  else if (localStorage.getItem("estado_cookies_4") == "aceptadas") {
+  if (localStorage.getItem("estado_cookies_5") == "aceptadas") {
 
         bloque_cookies.style.display="none";
   }
@@ -26,6 +20,6 @@ function start(){
 
 function aceptar_cookies(){
 alert("Establecer estado_cookies en aceptadas");
-localStorage.setItem("estado_cookies_4", "aceptadas");
+localStorage.setItem("estado_cookies_5", "aceptadas");
 bloque_cookies.style.display="none";
 }
