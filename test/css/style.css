@@ -1,0 +1,470 @@
+.preciosnoactualizados,.oferta_general,.oferta_particulares,.oferta_multirramos,.oferta_dental,.oferta_basico,.oferta_plena{
+  display: none;
+}
+
+body {
+  padding-top: 50px;
+  background:#e3e9ec;
+}
+
+.seccion{
+  h2eight: 100%;
+  display: flex!important;
+  flex-flow: column wrap;
+	justify-content: space-between;
+}
+
+.btn-group{
+  width: 100%;
+  display: flex!important;
+  flex-flow: row wrap;
+	justify-content: space-around;
+  margin: 0 0 22px
+}
+
+.btn2{
+  color: #6d98ab;
+  text-decoration: none;
+  padding: 6px 10px;
+  font-size: 16px;
+  background: none;
+  border: 3px solid #6d98ab;
+  box-sizing: border-box;
+  border-radius:20px;
+  font-weight: bold;
+  line-height: 40px;
+  margin: 0
+}
+
+.btn2:hover{
+  text-decoration: none;
+  color: #6d98ab;
+  background: rgba(109,152,171,0.2);
+}
+
+.btn2.active{
+
+  color: #0099dd;
+  border: 3px solid #0099dd;
+}
+
+.close {
+  position: relative;
+  top: -10px;
+  filter: alpha(opacity=50);
+  opacity: .5;
+}
+
+#telefono_nav{
+  float:left;
+  font-size: 18px;
+  background: #0099dd;
+  color: #fff;
+  padding: 8px;
+  box-sizing: border-box;
+  margin-right:5px;
+  border-radius:20px;
+  margin-top: 4px;
+}
+
+#barra_inferior{
+  margin: 0 22px 16px;
+}
+
+#banner{
+  display: block;
+  box-sizing: border-box;
+  margin:0;
+  border-radius:10px;
+  border: 3px solid #0099dd;
+  padding: 6px
+}
+#banner img{
+  width:100%;
+  border-radius:10px;
+}
+
+.boton_volver{
+  position:absolute;
+  margin-top:10px
+}
+
+#particular {
+padding: 0!important;
+
+}
+
+#tituloprecio {
+  position: relative;
+  width:100%;
+  margin: 0;
+  to2p:-10px;
+  margin-bottom: 0px;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+  padding-top: 0px;
+  height: 50px;
+
+}
+
+#tituloprecio.particular{
+  background: #c10025;
+  box-shadow:#90011c 0 1px 0;
+}
+
+#tituloprecio.autonomo{
+  background: #418666;
+  box-shadow:#31624b 0 1px 0;
+}
+
+#tituloprecio.empresa{
+  background: #ff9200;
+  box-shadow:#bb6c02 0 1px 0;
+}
+
+#seccionprecio{
+  position: relative;
+  width: 100%;
+  padding: 0;
+  top: 5px;
+  margin: 0!important;
+  padding-bottom: 2px;
+}
+
+td {
+	vertical-align:middle!important
+}
+.thumbnail li {
+	margin: 10px 0;
+}
+
+.tituloydescripcion {
+  padding: 15px;
+  text-align: center;
+}
+
+.contacto {
+  border-radius: 10px;
+  margin-right: 10px;
+	padding-top:0!important;
+	padding-bottom:0!important;
+	background-color: #c45ba9;
+  position: fixed;
+  width: auto
+}
+
+.contacto h3, .contacto p, .contacto label{
+  color: white;
+  text-shadow:#000 0 1px 0;
+}
+
+.contacto .hrseparador {
+	border-top-color: white;
+}
+
+.hrseparador {
+	border-top-color: black;
+}
+
+.mensaje {
+	resize: none;
+}
+
+.botoncerrar {
+	position:absolute;
+	right:10px;
+	top:10px
+}
+
+.estructura {
+	padding-top: 15px;
+}
+
+.cuerpo {
+	padding: 15px;
+  border-radius: 10px
+}
+
+.seccion,.seccion-multirramo {padding: 0;
+}
+
+.seccion img {
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+}
+
+
+
+.particulares {
+	background:url("../imagenes/particulares.png");
+	background-size: 100% 100%;
+}
+
+.autonomosyempresas {
+	background:url("../imagenes/autonomosyempresas.png");
+	background-size: 100% 100%;
+}
+
+.multirramo {
+	background:url("../imagenes/multirramo.png");
+	background-size: 100% 100%;
+}
+
+.partic2ulares-dental {
+	background:url("../imagenes/particulares-dental.png");
+	background-size: 100% 100%;
+}
+
+.particulares-basico {
+	background:url("../imagenes/particulares-basico.png");
+	background-size: 100% 100%;
+}
+
+.particulares-plenavital {
+	background:url("../imagenes/particulares-plenavital.png");
+	background-size: 100% 100%;
+}
+
+.particulares-plena {
+	background:url("../imagenes/particulares-plena.png");
+	background-size: 100% 100%;
+}
+
+.particulares-plenaplus {
+	background:url("../imagenes/particulares-plenaplus.png");
+	background-size: 100% 100%;
+}
+
+.particulares-plenaextra150 {
+	background:url("../imagenes/particulares-plenaextra150.png");
+	background-size: 100% 100%;
+}
+
+.autonomosyempresas-autonomos {
+	background:url("../imagenes/autonomosyempresas-autonomos.png");
+	background-size: 100% 100%;
+}
+
+.autonomosyempresas-empresas {
+	background:url("../imagenes/autonomosyempresas-empresas.png");
+	background-size: 100% 100%;
+}
+
+.pymesyautonomos-reembolso {
+	background:url("../imagenes/pymesyautonomos-reembolso.png");
+	background-size: 100% 100%;
+}
+
+.seccion img{
+  width: 100%;
+  height2: 30px
+}
+
+.seccion h2{
+	color:#0099dd;
+}
+
+.seccion h3{
+	text-shadow:#000 0 1px 0;
+	color:#FFF;
+	padding: 20px 0!important
+}
+
+.seccion-multirramo h3{
+	text-shadow:#000 0 1px 0;
+	color:#FFF
+}
+
+.seccionsombra h3{
+	text-shadow:#000 0 1px 0,#000 0 0 7px;
+}
+
+.preciominimo{
+  font-size: 30px;
+  font-weight: 420;
+}
+
+.oferta_estilo{
+  font-size: 20px;
+  color: #01941d
+}
+
+.thumbnail.seccion{
+  border: 3px solid #0099dd;
+  border-radius: 10px;
+  padding: 10px;
+  padding-bottom: 0px;
+  box-sizing: border-box;
+  margin: 0 6px;
+  height: 100%
+}
+
+.columnas{
+  display: flex!important;
+  flex-flow: row wrap;
+	justify-content: space-around;
+}
+
+.columna{
+  margin: 6px 0px;
+}
+
+.col_1-3{
+  width: 33.33%;
+}
+
+.col_2-3{
+  width: 66.67%;
+}
+
+.col_1-2{
+  width: 50%;
+}
+
+.col_2-3_row{
+  width: 66.67%;
+}
+
+
+.thumbnail.seccion img{
+  border-radius: 10px;
+}
+
+.titulo {
+  margin-top:0;
+	color: #0099dd;
+}
+
+.oferta_general_estilo{
+  color: #01941d;
+  text-align:center;
+  margin-top:0;
+  margin-bottom:20px
+}
+
+.lead {
+	color: #29bce9;
+
+}
+
+
+/*! Barra */
+.navbar {
+  background:#fff;
+  border-bottom: 1px solid #9a9a9a;
+  box-shadow:rgba(0,0,0,0.4) 0 1px 3px;
+
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #fff;
+  background-color: rgba(0,153,221,0.5);
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+
+  background-color: rgba(0,153,221,0.2);
+}
+
+.navbar-header img {
+	height: 34px;
+	margin-top:-7px;
+
+}
+
+@media (min-width: 992px) {
+
+	.barra {float:right
+	}
+
+	#oculto {
+	display:block!important;
+	}
+
+}
+
+@media (max-width: 991px) {
+
+	.contacto {
+  margin-right: 0px;
+	bac2kground:#fff!important;
+	border: 1px solid #ddd;
+  position: relative;
+  width: auto;
+	}
+
+
+	#oculto {
+	display:none;
+	}
+
+	#oculto2 {
+	display:block;
+	}
+
+  .columna{
+    width: 100%
+  }
+
+  #banner,.oferta_ocultarmovil{
+    display: none!important
+  }
+
+
+  .col_1-3,.col_1-2{
+    width: 50%;
+  }
+
+  .col_2-3{
+    width: 100%;
+  }
+
+}
+
+@media (max-width: 767px) {
+
+	.seccionfigura {
+	width:100%;
+	border-radius: 3px;
+	}
+
+  .col_1-3,.col_1-2{
+    width: 100%;
+  }
+
+}
+
+@media (max-width: 1052px) {
+  .ocultar_texto_telefono{
+    display: none
+  }
+}
+
+@media (max-width: 479px) {
+	.tablagrande {
+	font-size: 8px
+	}
+
+}
+
+@media (max-width: 1199px) and (min-width: 992px){
+  .contacto {
+    widt2h: 230px
+  }
+}
+
+
+
+  .container {
+    width: 100%;
+  }
+
+
+@media (m2in-width: 1200px) {
+  .container {
+    width: 100%;
+  }
+}
